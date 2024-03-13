@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15%;
+}
+.container{
+    border:1px solid paleturquoise;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+p{
+    font-size: 22px;
+}
+#stick{
+    display: inline-flex;
+    gap: 10%;
+}
+#rock{
+    border: 1px solid pink;
+    height: 60px;
+    width: 35%;
+    background-color: rgb(255, 55, 55); 
+    font-size: 40px;
+    cursor: pointer; 
+}
+#paper{
+    border: 1px solid pink;
+    height: 60px;
+    width: 35%;
+    background-color: deepskyblue;
+    font-size: 40px;
+    cursor: pointer;
+}
+#scissor{
+    border: 1px solid pink;
+    height: 60px;
+    width: 40%;
+    background-color: rgb(115, 215, 115);
+    font-size: 40px;
+    cursor: pointer;
+}
